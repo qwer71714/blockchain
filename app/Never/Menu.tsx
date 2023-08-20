@@ -29,7 +29,7 @@ const Menu = () => {
           <p className="pl-3 text-2xl font-bold">BlockChain</p>
           <div className="flex justify-end ms-auto">
             <NavLink href="/">Docs</NavLink>
-            <NavLink href="/">Puisw</NavLink>
+            <NavLink href="/">Software</NavLink>
             <NavLink href="/">rrt</NavLink>
           </div>
         </div>
