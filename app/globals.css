@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7e31e7a67dcf5a580d78bf668021bb3fedf59dd0
 @import url("https://rsms.me/inter/inter.css");
 html {
   font-family: "Inter", sans-serif;
@@ -11,7 +15,11 @@ html {
     font-family: "Inter var", sans-serif;
   }
 }
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> 7e31e7a67dcf5a580d78bf668021bb3fedf59dd0
 .center {
     text-align: center;
 }
@@ -19,3 +27,7 @@ html {
 .title {
     font-size: 40px;
 }
+<<<<<<< HEAD
+=======
+>>>>>>> 3cc3bc3542706864fcb2c4129298af6c74c5b368
+>>>>>>> 7e31e7a67dcf5a580d78bf668021bb3fedf59dd0
