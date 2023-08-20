@@ -11,3 +11,11 @@ html {
     font-family: "Inter var", sans-serif;
   }
 }
+
+.center {
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+}
