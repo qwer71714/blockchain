@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.center {
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+}
