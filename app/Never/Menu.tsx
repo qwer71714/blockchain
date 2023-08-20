@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import BlockChain from "@/public/images/BlockChain-logo-no.png";
+import BlockChain from "@/public/images/BlockChain-logo-no.svg";
 
 const Menu = () => {
   type NavLinkProps = {
