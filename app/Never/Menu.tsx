@@ -32,8 +32,8 @@ const Menu = () => {
           <Image
             src={BlockChain}
             alt="Picture of the author"
-            width={46}
-            height={46}
+            width={42}
+            height={42}
           />
         </a>
         <ul className="flex">
