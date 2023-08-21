@@ -4,8 +4,8 @@ import BlockChain from "@/public/images/BlockChain-logo-no.svg";
 
 const Menu = () => {
   type NavLinkProps = {
-    href: string;
-    children: React.ReactNode;
+    href: string; // href 속성은 문자열 타입으로 정의됩니다.
+    children: React.ReactNode; // children 속성은 React의 노드 타입으로 정의됩니다.
   };
 
   const NavLink: React.FC<NavLinkProps> = ({ href, children }) => (
@@ -19,15 +19,14 @@ const Menu = () => {
     <div className="border-b border-b-stone-200">
       <div
         className="
-      container
-      mx-auto
-      flex
-      items-center
-      justify-between
-      py-4
-      w-11/12
-    
-    "
+          container
+          mx-auto
+          flex
+          items-center
+          justify-between
+          py-4
+          w-11/12
+          "
       >
         <a href="/">
           <Image
