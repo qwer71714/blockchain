@@ -26,7 +26,7 @@ const Button: React.FC<ButtonProps> = ({
       disabled={disabled}
       className={clsx(
         `
-        rounded-md 
+        rounded-md
         px-3 
         py-2 
         text-sm 
