@@ -10,13 +10,26 @@ const Menu = () => {
 
   const NavLink: React.FC<NavLinkProps> = ({ href, children }) => (
     <li className="ml-9">
-      <a href={href} className="font-semibold hover:text-blue-600 duration-200">
+      <a
+        href={href}
+        className="text-white font-semibold hover:text-blue-600 duration-200"
+      >
         {children}
       </a>
     </li>
   );
   return (
-    <div className="border-b border-b-stone-200">
+    <div
+      className="
+        top-0
+        fixed
+        w-full
+        border-b-2
+        border-b-black/70
+        backdrop-blur-xl
+        bg-black/50
+        "
+    >
       <div
         className="
           container
