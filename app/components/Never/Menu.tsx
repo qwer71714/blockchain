@@ -50,7 +50,7 @@ const Menu = () => {
           />
         </a>
         <ul className="flex">
-          <NavLink href="/">Docs</NavLink>
+          <NavLink href="/Pages/Docs">Docs</NavLink>
           <NavLink href="/">Minecraft</NavLink>
           <NavLink href="/">Recruitment</NavLink>
         </ul>

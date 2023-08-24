@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Menu from "./Never/Menu";
+import Menu from "@/app/components/Never/Menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Menu />
+        <section className="container m-auto w-11/12">
         {children}
+        </section>
       </body>
     </html>
   );
