@@ -23,6 +23,7 @@ export default function ThemeButton() {
         rounded-full
        bg-white
        dark:bg-black
+       duration-200
        shadow-[0_0px_32px_1px_rgba(0,0,0,0.25)]
       `}
       >
