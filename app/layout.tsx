@@ -20,11 +20,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <ThemeProvider attribute="class">
           <Menu />
           {children}
-          <ThemeButton />
+          <div className="container mx-auto flex justify-end">
+            <ThemeButton />
+          </div>
         </ThemeProvider>
       </body>
     </html>

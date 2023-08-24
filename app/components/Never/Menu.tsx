@@ -26,8 +26,9 @@ const Menu = () => {
         w-full
         border-b-2
         backdrop-blur-xl
-        bg-white/50
-        bg-border-white/50
+        duration-200
+        bg-white/60
+        border-white/60
         dark:border-black/50
         dark:bg-black/50
         "
