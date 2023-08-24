@@ -12,7 +12,7 @@ const Menu = () => {
     <li className="ml-9">
       <a
         href={href}
-        className="text-white font-semibold hover:text-blue-600 duration-200"
+        className="dark:text-white font-semibold dark:hover:text-blue-600 duration-200"
       >
         {children}
       </a>
@@ -25,9 +25,11 @@ const Menu = () => {
         fixed
         w-full
         border-b-2
-        border-b-black/70
         backdrop-blur-xl
-        bg-black/50
+        bg-white/50
+        bg-border-white/50
+        dark:border-black/50
+        dark:bg-black/50
         "
     >
       <div
@@ -37,7 +39,7 @@ const Menu = () => {
           flex
           items-center
           justify-between
-          py-4
+          py-3
           w-11/12
           "
       >

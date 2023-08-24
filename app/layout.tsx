@@ -1,7 +1,10 @@
+"use client";
 import "./globals.css";
-import type { Metadata } from "next";
+import { ThemeProvider } from "next-themes";
 import { Inter } from "next/font/google";
+import type { Metadata } from "next";
 import Menu from "@/app/components/Never/Menu";
+import ThemeButton from "./components/Theme/ThemeButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,10 +21,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Menu />
-        <section className="container m-auto w-11/12">
-        {children}
-        </section>
+        <ThemeProvider attribute="class">
+          <Menu />
+          {children}
+          <ThemeButton />
+        </ThemeProvider>
       </body>
     </html>
   );
