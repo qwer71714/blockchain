@@ -10,7 +10,7 @@ export default function Home() {
       <section className="container m-auto w-11/12">
         <div className="pt-72 text-center">
           <h1 className="text-white text-7xl font-black">BlockChain Talk</h1>
-          <p className="mt-4 text-2xl text-white font-bold">
+          <p className="mt-4 text-3xl text-white font-bold">
             Empowering Unity, Fostering Growth
           </p>
           {/*슬로건추가 변경가능*/}
