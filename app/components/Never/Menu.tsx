@@ -12,7 +12,7 @@ const Menu = () => {
     <li className="ml-9">
       <a
         href={href}
-        className="dark:text-white font-semibold dark:hover:text-blue-600 duration-200"
+        className="dark:text-white font-semibold dark:hover:text-blue-500 duration-200"
       >
         {children}
       </a>
@@ -28,8 +28,8 @@ const Menu = () => {
         backdrop-blur-xl
         duration-200
         bg-white/60
-        border-white/60
-        dark:border-black/50
+        border-stone-100
+        dark:border-stone-800
         dark:bg-black/50
         "
     >

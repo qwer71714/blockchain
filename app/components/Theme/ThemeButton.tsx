@@ -13,7 +13,7 @@ export default function ThemeButton() {
   if (!mounted) return null;
 
   return (
-    <div className="fixed bottom-0 mb-3 mr-4 w-28">
+    <div className="fixed bottom-0 mb-6 mr-4 w-28">
       <div
         className={`
         p-3
@@ -24,7 +24,8 @@ export default function ThemeButton() {
        bg-white
        dark:bg-black
        border-2
-       dark:border-stone-700
+       border-stone-200
+       dark:border-stone-800
        duration-200
        shadow-[0_0px_32px_1px_rgba(0,0,0,0.25)]
       `}
