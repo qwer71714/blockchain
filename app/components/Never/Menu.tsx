@@ -54,8 +54,8 @@ const Menu = () => {
         </a>
         <ul className="flex">
           <NavLink href="/Pages/Docs">Docs</NavLink>
-          <NavLink href="/">Minecraft</NavLink>
-          <NavLink href="/">Recruitment</NavLink>
+          <NavLink href="/Pages/Minecraft">Minecraft</NavLink>
+          <NavLink href="/Pages/Recruitment">Recruitment</NavLink>
         </ul>
       </div>
     </div>
