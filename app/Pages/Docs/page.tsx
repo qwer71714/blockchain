@@ -2,7 +2,6 @@ import ThemeSwitcher from "@/app/components/Theme/ThemeSwitcher";
 import React from "react";
 
 export default function page() {
-<<<<<<< HEAD
   return (
     <main className="dark:bg-black">
       <section className="container m-auto w-11/12">
@@ -23,9 +22,4 @@ export default function page() {
       </section>
     </main>
   );
-=======
-  return <div className="pt-20 text-center dark:bg-black h-screen">
-      <h1 className="text-white text-7xl font-black">Docs</h1>
-  </div>;
->>>>>>> 6e04fffe182608188d7d0cffa1a64b7ee977b092
 }
