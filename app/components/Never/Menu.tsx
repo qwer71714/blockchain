@@ -25,7 +25,7 @@ const Menu = () => {
         fixed
         w-full
         border-b-2
-        backdrop-blur-xl
+        backdrop-blur-2xl
         duration-200
         bg-white/60
         border-stone-100
