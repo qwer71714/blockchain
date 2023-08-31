@@ -16,13 +16,15 @@ export default function Home() {
           {/*슬로건추가 변경가능*/}
           <div className="mt-7">
             <div className="mt-12 flex justify-between w-72 mx-auto">
-              <a href="/Pages/Docs" className="text-base">
-                <Button>Get Started</Button>
+              <a href="/Pages/Docs">
+                <Button>
+                  <p className="text-base">Get Started</p>
+                </Button>
               </a>
-              <a href="https://discord.gg/xdku5sEA" className="pl-2 text-base">
+              <a href="https://discord.gg/xdku5sEA">
                 <Button>
                   <LiaDiscord size={24} />
-                  Discord
+                  <p className="pl-2 text-base">Discord</p>
                 </Button>
               </a>
             </div>

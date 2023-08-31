@@ -28,7 +28,7 @@ const Button: React.FC<ButtonProps> = ({
         `
         flex
         items-center
-        rounded-xl
+        rounded-md
         px-4
         py-3
         text-sm
@@ -44,7 +44,7 @@ const Button: React.FC<ButtonProps> = ({
           "bg-rose-500 hover:bg-rose-600 focus-visible:outline-rose-600", // danger 속성이 true일 경우 배경색과 호버 시 배경색, 포커스 시 아웃라인 색상을 분홍색으로 설정
         !secondary &&
           !danger &&
-          "bg-black hover:bg-stone-900 active:bg-stone-950 focus-visible:outline-stone-900" // secondary와 danger 속성이 모두 false일 경우 배경색과 호버 시 배경색, 포커스 시 아웃라인 색상을 하늘색으로 설정
+          "bg-black dark:bg-white hover:dark:bg-stone-200 hover:bg-stone-800 text-white dark:text-black" // secondary와 danger 속성이 모두 false일 경우 배경색과 호버 시 배경색, 포커스 시 아웃라인 색상을 하늘색으로 설정
       )}
     >
       {children}
