@@ -1,6 +1,7 @@
 import React from "react";
 import Cna from "./Introduction/cna";
 import UltimateGameHub from "./Introduction/UltimateGameHub";
+import GuaranteedFun from "./Introduction/guaranteedfun";
 
 export default function Integration() {
   return (
@@ -10,6 +11,9 @@ export default function Integration() {
       </div>
       <div className="pt-48">
         <UltimateGameHub />
+      </div>
+      <div className="pt-48">
+        <GuaranteedFun />
       </div>
     </div>
   );
