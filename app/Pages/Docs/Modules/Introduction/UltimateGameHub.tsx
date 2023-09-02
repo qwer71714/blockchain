@@ -9,14 +9,13 @@ export default function UltimateGameHub() {
       <div className="w-5/12">
         <h1 className="text-4xl font-bold">가치있는 브랜드</h1>
         <p className="mt-4 text-base text-stone-700 dark:text-stone-300">
-          가치있는 브랜드를 만들기 위해 블록체인은 지속적으로 노력하고 있습니다.
+          블록체인은 사용자의 개성과 창의성을 높이기 위해 계속 노력합니다.
           <br />
-          독창적인 플러그인과 모드를 통해, 각 사용자의 개성과 창의성을
+          독특한 플러그인과 모드로 다양한 경험을 제공하며, 이를 통해 브랜드
           <br />
-          존중하며 다양한 경험을 제공합니다.
+          가치를 지속적으로 향상시킵니다. 마인크래프트를 넘어 다양한 컨텐츠를
           <br />
-          마인크래프트를 넘어 다양한 컨텐츠를 창출하며, 브랜드 가치를 지속적으로
-          높여나갑니다
+          창출하며 브랜드를 강화합니다.
         </p>
         <div className="mt-8">
           <Button>제작중인 상태 목록보기</Button>
@@ -26,7 +25,7 @@ export default function UltimateGameHub() {
         <Image
           src={Mineimage}
           alt="BCcom"
-          width={820}
+          width={620}
           className="rounded-2xl"
         />
       </div>

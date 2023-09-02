@@ -21,7 +21,7 @@ export default function Cna() {
         </div>
       </div>
       <div className="ml-auto">
-        <Image src={BCcom} alt="BCcom" width={820} className="rounded-2xl" />
+        <Image src={BCcom} alt="BCcom" width={620} className="rounded-2xl" />
       </div>
     </div>
   );

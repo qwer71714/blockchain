@@ -40,7 +40,7 @@ const Menu = () => {
           flex
           items-center
           justify-between
-          py-3
+          py-2
           w-11/12
           "
       >
@@ -48,8 +48,8 @@ const Menu = () => {
           <Image
             src={BlockChain}
             alt="Picture of the author"
-            width={42}
-            height={42}
+            width={36}
+            height={36}
           />
         </a>
         <ul className="flex">
