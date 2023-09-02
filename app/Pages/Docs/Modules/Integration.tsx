@@ -15,6 +15,11 @@ export default function Integration() {
       <div className="pt-48">
         <GuaranteedFun />
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
