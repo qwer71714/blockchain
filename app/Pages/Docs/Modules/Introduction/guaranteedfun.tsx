@@ -17,7 +17,11 @@ export default function GuaranteedFun() {
           느껴보세요!
         </p>
         <div className="mt-8">
-          <Button>게임 시작하러 가기</Button>
+        <a href="https://discord.gg/bRfhERh9UM">
+                <Button>
+                  <p className="pl-2 text-base">게임 하러가기</p>
+                </Button>
+              </a>
         </div>
       </div>
       <div className="ml-auto">
