@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import BCcom from "@/public/images/BC-Connections.png";
@@ -17,7 +18,13 @@ export default function Cna() {
           그것이 진정한 연결입니다.
         </p>
         <div className="mt-8">
-        <Button>BlockChain 팀원 보기</Button>
+          <Button
+            onClick={() => {
+              location.href = "/Pages/Docs/Team";
+            }}
+          >
+            BlockChain 팀원 보기
+          </Button>
         </div>
       </div>
       <div className="ml-auto">
