@@ -9,9 +9,9 @@ export default function Meet() {
       <div className="w-5/12">
         <h1 className="text-4xl font-bold">Meet our team</h1>
         <p className="mt-4 text-base text-stone-700 dark:text-stone-300">
-          Meet the members behind BlockChain Talk
+        블록체인의 멤버를 만나봅시다
         <br />
-        a Minecraft server host and plugin
+        우리는 마인크래프트서버와 플러그인을 개발합니다
         </p>
         <div className="mt-8">
         <a href="https://github.com/qwer71714">
