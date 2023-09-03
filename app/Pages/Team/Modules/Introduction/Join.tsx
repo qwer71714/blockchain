@@ -14,11 +14,7 @@ export default function Join() {
         우리는 마인크래프트서버와 플러그인을 개발합니다
         </p>
         <div className="mt-8">
-        <a href="https://discord.gg/xdku5sEA">
-                <Button>
-                  <p className="pl-2 text-base">Join</p>
-                </Button>
-              </a>
+          <Button>Join</Button>
         </div>
       </div>
     </div>

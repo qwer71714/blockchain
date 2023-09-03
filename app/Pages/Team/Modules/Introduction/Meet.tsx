@@ -14,11 +14,7 @@ export default function Meet() {
         우리는 마인크래프트서버와 플러그인을 개발합니다
         </p>
         <div className="mt-8">
-        <a href="https://github.com/qwer71714">
-            <Button>
-                <p className="pl-2 text-base">Github</p>
-            </Button>
-        </a>
+          <Button>github</Button>
         </div>
       </div>
     </div>
