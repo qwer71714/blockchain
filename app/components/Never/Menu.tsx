@@ -56,6 +56,7 @@ const Menu = () => {
           <NavLink href="/Pages/Docs">Docs</NavLink>
           <NavLink href="/Pages/Minecraft">Minecraft</NavLink>
           <NavLink href="/Pages/Recruitment">Recruitment</NavLink>
+          <NavLink href="/Pages/Team">Team</NavLink>
         </ul>
       </div>
     </div>
