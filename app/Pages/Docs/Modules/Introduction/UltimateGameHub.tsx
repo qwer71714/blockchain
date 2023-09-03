@@ -18,11 +18,7 @@ export default function UltimateGameHub() {
           창출하며 브랜드를 강화합니다.
         </p>
         <div className="mt-8">
-        <a href="https://github.com/qwer71714">
-                <Button>
-                  <p className="pl-2 text-base">제작중인 상태 보러가기</p>
-                </Button>
-              </a>
+          <Button>제작중인 상태 목록보기</Button>
         </div>
       </div>
       <div className="ml-auto">

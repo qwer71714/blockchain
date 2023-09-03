@@ -17,11 +17,7 @@ export default function Cna() {
           그것이 진정한 연결입니다.
         </p>
         <div className="mt-8">
-        <a href="./Team">
-                <Button>
-                  <p className="pl-2 text-base">Blockchain 멤버보기</p>
-                </Button>
-              </a>
+        <Button>BlockChain 팀원 보기</Button>
         </div>
       </div>
       <div className="ml-auto">
