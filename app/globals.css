@@ -10,6 +10,12 @@ html {
     font-family: "Segoe UI";
   }
 }
+<<<<<<< Updated upstream
+=======
+.center { 
+    text-align: center;
+}
+>>>>>>> Stashed changes
 
 .ips {
   width: 100%;
