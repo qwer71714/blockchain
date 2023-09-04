@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import BCcom from "@/public/images/BC-Connections.png";
+import Logo from "@/public/images/BlockChain-logo-no.svg";
 import Button from "@/app/components/Button";
 
 export default function Meet() {
@@ -16,6 +16,9 @@ export default function Meet() {
         <div className="mt-8">
           <Button>github</Button>
         </div>
+      </div>
+      <div className="ml-auto">
+        <Image src={Logo} alt="Logo" width={300} className="rounded-2xl" />
       </div>
     </div>
   );
