@@ -1,20 +1,20 @@
 import React from "react";
-import Join from "./Introduction/Join";
-import Meet from "./Introduction/Meet";
-import Member from "./Introduction/Member";
+import Join from "./TeamIntroduction/Join";
+import Meet from "./TeamIntroduction/Meet";
+import Member from "./TeamIntroduction/Member";
 
-export default function Integration() {
+export default function TeamIntegration() {
   return (
     <div>
       <div className="pt-48">
         <Meet />
       </div>
-      <div className="pt-48">
+      {/* <div className="pt-48">
         <Member />
       </div>
       <div className="pt-48">
         <Join />
-      </div>
+      </div> */}
       <br />
       <br />
       <br />

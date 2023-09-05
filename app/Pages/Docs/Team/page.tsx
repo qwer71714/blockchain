@@ -1,5 +1,5 @@
 import React from "react";
-import Integration from "./Modules/Integration";
+import Integration from "./Modules/TeamIntegration";
 
 export default function page() {
   return (
