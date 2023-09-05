@@ -16,7 +16,7 @@ export default function Member() {
             alt="vampire"
             name="로즈베리온"
             discordid="flowers_vampire"
-            introduction="안녕하세요 BlockChain 팀의 팀장 로즈베리온 입니다. 저는 프론드엔드 개발자 입니다."
+            introduction="안녕하세요 BlockChain 팀의 팀장 로즈베리온 입니다. 저는 타입스크립트 으로 프론트 개발 합니다."
             href="https://github.com/qwer71714"
             gitHublink="qwer71714"
             mail="qwer71714@naver.com"
