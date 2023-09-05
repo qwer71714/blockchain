@@ -27,8 +27,8 @@ const DiscordProfile: React.FC<DiscordProfileProps> = ({
   src,
 }) => {
   return (
-    <div className="flex items-center w-1/3">
-      <div className="p-6 dark:border-stone-700 border-stone-200 border rounded-md">
+    <div className="flex items-center">
+      <div className="p-7 dark:border-stone-700 dark:border-2 border-stone-300 border rounded-md">
         {/* 프로필 사진 */}
         <div className="flex items-center">
           <div className="mb-auto">
@@ -36,7 +36,7 @@ const DiscordProfile: React.FC<DiscordProfileProps> = ({
               src={src}
               alt={alt || "Discord Profile"}
               width={width}
-              className="rounded-full dark:border-stone-700 border-stone-200 border p-2"
+              className="rounded-full dark:border-stone-700 dark:border-2 border-stone-300 border p-2"
             />
           </div>
           <div className="pl-5">
