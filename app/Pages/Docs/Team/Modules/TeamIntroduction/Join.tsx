@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Button from "@/app/components/Button";
 import bllike from "@/public/images/blockchainlike.png";
-import { BiSolidCircle } from "react-icons/bi";
+import { GrFormNext } from "react-icons/gr";
 
 export default function Join() {
   return (
@@ -15,9 +15,12 @@ export default function Join() {
             <br />
             전문성과 혁신을 추구하는 우리 팀과 함께 성장해보세요.
           </p>
-          <button className="mt-4 border-stone-400 border p-2 px-5 rounded-full flex items-center">
-            <p className="bg-blue-600 p-2 rounded-full" />
-            <p className="pl-2 text-sm">자세한 정보</p>
+          <button className="mt-4 border p-1.5 px-3 rounded-full flex items-center border-stone-200 hover:border-stone-400 duration-200">
+            <p className="bg-blue-600 p-1 rounded-full" />
+            <p className="pl-2 text-xs">자세한 정보</p>
+            <div className="pl-1.5 text-blue-400">
+              <GrFormNext />
+            </div>
           </button>
           <div className="mt-8">
             <Button>블록체인팀 지원하기</Button>

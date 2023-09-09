@@ -16,11 +16,6 @@ export default function TeamIntegration() {
       <div className="pt-32">
         <Join />
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   );
 }
