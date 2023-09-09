@@ -1,12 +1,22 @@
-import React from "react";
+"use client";
+
+import React, { Children, useState } from "react";
 import Image from "next/image";
 import Button from "@/app/components/Button";
 import bllike from "@/public/images/blockchainlike.png";
 import { GrFormNext } from "react-icons/gr";
+import JoinModal from "@/app/components/Modal/JoinModal";
 
 export default function Join() {
+  const [isModal, setisModal] = useState(false);
+  const clickModal = () => {
+    document.body.style.overflow = isModal ? "auto" : "hidden";
+    setisModal(!isModal);
+  };
+
   return (
     <div>
+      {isModal && <JoinModal isModal={clickModal} />}
       <div className="flex w-full items-center">
         <div>
           <h1 className="text-4xl font-bold">Join the BlockChain Team</h1>
@@ -23,7 +33,7 @@ export default function Join() {
             </div>
           </button>
           <div className="mt-8">
-            <Button>블록체인팀 지원하기</Button>
+            <Button onClick={clickModal}>블록체인팀 지원하기</Button>
           </div>
         </div>
         <div className="ml-auto">

@@ -1,5 +1,4 @@
 import React from "react";
-import Cna from "./Modules/Introduction/cna";
 import Integration from "./Modules/Integration";
 
 export default function page() {

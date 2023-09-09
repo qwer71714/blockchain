@@ -13,7 +13,7 @@ export default function TeamIntegration() {
       <div className="pt-14">
         <Member />
       </div>
-      <div className="pt-32">
+      <div className="pt-14">
         <Join />
       </div>
     </div>

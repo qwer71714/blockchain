@@ -60,7 +60,9 @@ const DiscordProfile: React.FC<DiscordProfileProps> = ({
                 {/* 이메일 */}
                 <div className="flex items-center">
                   <AiOutlineMail size={18} />
-                  <p className="px-1">{mail}</p>
+                  <p className="px-1">
+                    {mail ? <a href={`mailto:${mail}`}>{mail}</a> : "No Mail"}
+                  </p>
                 </div>
               </div>
             </div>
