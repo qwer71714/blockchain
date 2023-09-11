@@ -41,7 +41,7 @@ const JoinModal: React.FC<Modalprops> = ({ children, isModal }) => {
       "
         >
           <div className="p-4">
-            <p>아 뭘보나고~</p>
+            <p className="text-black">아 뭘보나고~</p>
           </div>
         </div>
       </div>
