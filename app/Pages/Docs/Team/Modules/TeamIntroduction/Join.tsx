@@ -16,7 +16,6 @@ export default function Join() {
 
   return (
     <div>
-      {isModal && <JoinModal isModal={clickModal} />}
       <div className="flex w-full items-center">
         <div>
           <h1 className="text-4xl font-bold">Join the BlockChain Team</h1>
@@ -34,6 +33,7 @@ export default function Join() {
           </button>
           <div className="mt-8">
             <Button onClick={clickModal}>블록체인팀 지원하기</Button>
+            {isModal && <JoinModal isModal={clickModal} />}
           </div>
         </div>
         <div className="ml-auto">
