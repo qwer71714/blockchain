@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Discor from "@/public/images/Dis.png";
 import Button from "../Button";
+import RecruitmentModule from "./Modules/RecruitmentModule";
 
 interface Modalprops {
   children?: React.ReactNode;
@@ -57,7 +58,14 @@ const JoinModal: React.FC<Modalprops> = ({ children, isModal }) => {
                 </p>
                 <div className="mt-4">
                   <Button>디스코드 지원</Button>
-                  <span className="mt-4 text-sm">자세한 사항</span>
+                </div>
+              </div>
+            </div>
+            <div className="mt-12">
+              <div>
+                <h1 className="text-3xl font-bold text-black">Enter support</h1>
+                <div className="mt-4 flex">
+                  <RecruitmentModule />
                 </div>
               </div>
             </div>
