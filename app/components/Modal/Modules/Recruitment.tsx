@@ -11,7 +11,7 @@ const Recruitment: React.FC = () => {
   const positions: Position[] = [
     {
       title: "Backend Developer",
-      description: "백엔드 개발자",
+      description: "백엔드 개발자zz",
       link: "/backend",
     },
     {
