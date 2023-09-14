@@ -1,7 +1,6 @@
 "use client";
 
 import clsx from "clsx";
-import { useState } from "react";
 
 interface ThemeModeProps {
   type?: "button" | "submit" | "reset" | undefined; // 버튼의 타입을 지정하는 속성
