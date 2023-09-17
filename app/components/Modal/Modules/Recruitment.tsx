@@ -12,7 +12,7 @@ const Recruitment: React.FC = () => {
     {
       title: "Backend Developer",
       description: "백엔드 개발자",
-      link: "/backend",
+      link: "/Pages/Careers/Recruitment/s",
     },
     {
       title: "Frontend Developer",
@@ -30,11 +30,14 @@ const Recruitment: React.FC = () => {
       link: "/service-comm",
     },
   ];
-
   return (
     <div className="grid gap-8 grid-cols-4">
       {positions.map((position, positionlink) => (
-        <Link key={positionlink} href={position.link || "#"}>
+        <Link
+          key={positionlink}
+          href="/Pages/Careers/Recruitment/[link]"
+          as={position.link}
+        >
           <div className="text-left border border-stone-200 rounded-xl p-4 w-56 hover:bg-stone-50 duration-200">
             <h1 className="text-lg font-normal text-black">{position.title}</h1>
             <p className="mt-2 text-sm text-stone-600">

@@ -25,12 +25,13 @@ const Menu = () => {
         fixed
         w-full
         border-b-2
-        backdrop-blur-sm
         duration-200
-        border-stone-200
-        bg-white/50
-        dark:border-stone-950
-        dark:bg-black/50
+        backdrop-blur-sm
+        backdrop-saturate-200
+        border-stone-200/50
+        bg-white/30
+        dark:border-stone-950/50
+        dark:bg-black/30
         "
     >
       <div
